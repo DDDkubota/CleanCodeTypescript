@@ -1,5 +1,5 @@
 import './style.css'
-import './07-tarearesolve'
+import './solid/01-srp'
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 app.innerHTML = `
