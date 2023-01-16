@@ -31,8 +31,9 @@
     class User {
         
         public email: string;
-        public role : string;
         public lastAccess: Date;
+        public role : string;
+        
 
         constructor({
             email,
@@ -68,6 +69,10 @@
             this.lastOpenFolder   = lastOpenFolder;
         }
     }
+
+
+
+    
     interface userSettingsProps {
         workingDirectory       :string;
         lastOpenFolder         :string;
