@@ -9,8 +9,6 @@
     // Recuerden que podemos tener muchas vistas que realicen este mismo trabajo.
     
     class ProductService {
-        private httadapter: Object;
-
         constructor(){
 
         }
@@ -27,7 +25,7 @@
     class Mailer {
         public email: string= 'ckubota54@gmail.com';
         sendEmail(emailList: string[], template:'to-clients' | 'to-admins'){
-            console.log('Enviado correo a los clients', template)
+            console.log('Enviado correo a los clients', template, emailList)
         }
     }
     class ProductBloc {
